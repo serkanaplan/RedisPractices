@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>Product Details</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@ViewBag.Product.Id</td>
+            <td>@ViewBag.Product.Name</td>
+            <td>@ViewBag.Product.Price</td>
+        </tr>
+        <tr>
+            <td>@ViewBag.Product2.Id</td>
+            <td>@ViewBag.Product2.Name</td>
+            <td>@ViewBag.Product2.Price</td>
+        </tr>
+    </tbody>
+</table>
